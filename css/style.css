@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cifa-banner {
+  width: 100%;
+  height: 100%;
+}
+.cifa-banner .banner-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.cifa-banner .banner-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cifa-banner .banner-image .text-overlay {
+  text-align: center;
+  color: #222B56;
+  margin-top: 5rem;
+}
+.cifa-banner .banner-image .text-overlay h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+@media (max-width: 768px) {
+  .cifa-banner .banner-image .text-overlay h1 {
+    font-size: 1.75rem;
+  }
+}
+@media (max-width: 480px) {
+  .cifa-banner .banner-image .text-overlay h1 {
+    font-size: 1.1rem;
+  }
+}
+.cifa-banner .banner-image .text-overlay .date {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #707070;
+  letter-spacing: 1.5px;
+}
+
+.workshop {
+  padding: 60px 0;
+  font-family: "Poppins", sans-serif;
+}
+.workshop .container {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+@media (max-width: 1024px) {
+  .workshop .container {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .workshop .container {
+    width: 95%;
+  }
+}
+@media (max-width: 480px) {
+  .workshop .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+.workshop .ws-number {
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: #222B56;
+  margin-bottom: 25px;
+}
+@media (max-width: 1024px) {
+  .workshop .ws-number {
+    font-size: 2.65625rem;
+  }
+}
+@media (max-width: 768px) {
+  .workshop .ws-number {
+    font-size: 2.1875rem;
+  }
+}
+@media (max-width: 480px) {
+  .workshop .ws-number {
+    font-size: 1.875rem;
+  }
+}
+.workshop .ws-title {
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: #222B56;
+  margin-bottom: 25px;
+  max-width: 700px;
+  line-height: 1.8;
+}
+@media (max-width: 1024px) {
+  .workshop .ws-title {
+    font-size: 1.955rem;
+    max-width: 600px;
+  }
+}
+@media (max-width: 768px) {
+  .workshop .ws-title {
+    font-size: 1.61rem;
+    max-width: 100%;
+    line-height: 1.6;
+  }
+}
+@media (max-width: 480px) {
+  .workshop .ws-title {
+    font-size: 1.38rem;
+    line-height: 1.4;
+  }
+}
+.workshop .ws-para {
+  font-size: 1.1rem;
+  color: #707070;
+  line-height: 2.5;
+  max-width: 750px;
+  margin: 3rem 0 1rem;
+}
+@media (max-width: 1024px) {
+  .workshop .ws-para {
+    font-size: clamp(16px, 2.5vw, 1.1rem);
+    line-height: 2.3;
+    max-width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .workshop .ws-para {
+    font-size: clamp(14px, 4vw, 0.77rem);
+    line-height: 2;
+  }
+}
+.workshop .ws-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 80px;
+  margin: 8px 0;
+  line-height: 2.7;
+}
+.workshop .ws-info p {
+  margin: 8px 0;
+  font-size: 1rem;
+  white-space: nowrap;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.workshop .ws-info .left p {
+  font-weight: 600;
+  color: #707070;
+}
+.workshop .ws-info .right p {
+  font-weight: 500;
+  color: #707070;
+}
+@media (max-width: 1024px) {
+  .workshop .ws-info {
+    gap: 50px;
+    line-height: 2.4;
+  }
+  .workshop .ws-info p {
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 768px) {
+  .workshop .ws-info {
+    gap: 20px;
+  }
+  .workshop .ws-info p {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 480px) {
+  .workshop .ws-info {
+    gap: 10px;
+  }
+  .workshop .ws-info p {
+    font-size: clamp(10px, 5vw, 0.6rem);
+  }
+}
+.workshop .btn-box {
+  margin-top: 40px;
+  text-align: center;
+}
+.workshop .btn-box .ws-btn {
+  display: inline-block;
+  padding: 18px 30px;
+  background: #222B56;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.69rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.workshop .btn-box .ws-btn:hover {
+  background: #142b5c;
+}
+@media (max-width: 768px) {
+  .workshop .btn-box .ws-btn {
+    padding: 10px 25px;
+    font-size: 0.5865rem;
+  }
+}
+@media (max-width: 480px) {
+  .workshop .btn-box .ws-btn {
+    padding: 8px 20px;
+    font-size: 0.5175rem;
+  }
+}
+
+.fraud-section {
+  width: 85%;
+  margin: 50px auto;
+  font-family: "Poppins", sans-serif;
+  color: #707070;
+}
+.fraud-section .fraud-box {
+  margin-bottom: 30px;
+}
+.fraud-section .fraud-box h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #707070;
+  margin-bottom: 10px;
+}
+.fraud-section .fraud-box .fraud-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 12px;
+  max-width: 700px;
+}
+.fraud-section .fraud-box .fraud-item .fa-chevron-right {
+  color: #222B56;
+  font-style: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 0;
+  font-size: 1.1rem;
+}
+.fraud-section .fraud-box .fraud-item p {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+@media (max-width: 768px) {
+  .fraud-section .fraud-box .fraud-item p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 480px) {
+  .fraud-section .fraud-box .fraud-item p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+}
+.fraud-section .fraud-note {
+  font-size: 1rem;
+  max-width: 750px;
+  line-height: 1.5;
+}
+@media (max-width: 768px) {
+  .fraud-section .fraud-note {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 480px) {
+  .fraud-section .fraud-note {
+    font-size: 0.85rem;
+  }
+}
+
+.cifa-footer {
+  border-top: 1px solid #707070;
+  padding: 30px 15px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+.cifa-footer .footer-inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.cifa-footer p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #707070;
+  line-height: 1.6;
+  margin: 0;
+}
+.cifa-footer p a {
+  color: #707070;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+}
+.cifa-footer p a:hover {
+  color: #555;
+  border-bottom-color: #888;
+}
+@media (max-width: 768px) {
+  .cifa-footer {
+    padding: 25px 12px;
+  }
+  .cifa-footer .footer-inner {
+    max-width: 100%;
+    padding: 0;
+  }
+  .cifa-footer p {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+}
+@media (max-width: 480px) {
+  .cifa-footer {
+    padding: 20px 10px;
+  }
+  .cifa-footer p {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+}
